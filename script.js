@@ -44,7 +44,7 @@ const displayFavorites = () => {
     JSON.parse(localStorage.getItem(localStorageKey)) || [];
   const favoriteUl = document.createElement("ul");
   favoriteElement.appendChild(favoriteUl);
-  favoriteElement.innerHTML = "";
+  favoriteElement.innerHTML = "<h2>Favorites:<h2>";
   favoriteProducts.forEach((product) => {
     const favoriteLi = document.createElement("li");
     favoriteLi.innerText = `${product.title} ${product.price}`;
