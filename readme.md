@@ -1,4 +1,7 @@
-## Projekt 4 - asynchroniczność w JS
+## Link to the page: https://agnieszka-szczepanska.github.io/Project4-JS-add-to-favorites/
+
+### Workshop task:
+Projekt 4 - asynchroniczność w JS
 
 1. Stworzyć html z dwiema kolumnami: “products” i “favorites”
 2. Pobrać produkty ze strony https://dummyjson.com/products i wyświetlić je w formie listy w divie “products”. Każdy element listy ma zawierać tytuł produktu i jego cenę.
